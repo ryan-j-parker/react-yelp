@@ -120,6 +120,14 @@ button.warning {
   border-color: var(--color-blue);
 }
 
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.98;
+}
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
